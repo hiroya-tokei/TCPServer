@@ -47,7 +47,6 @@ private:
     }
 
   void do_read() {
-  	//読み込みの関数を複数テストしました
     //async_read(sock_, buffer(read_buffer_), 
 	     //  MEM_FN2(read_complete,_1,_2), MEM_FN2(on_read,_1,_2));
     //async_read(sock_, buffer(read_buffer_), 
